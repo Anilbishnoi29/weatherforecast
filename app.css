@@ -1,0 +1,127 @@
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: 'Roboto',
+           sans-serif;
+       letter-spacing: .04rem;
+   }
+
+   body {
+       background: #f7f7f7;
+   }
+
+   h3 {
+       text-transform: capitalize;
+       text-align: center;
+       font-size: 1.5rem;
+       font-weight: 600;
+       color: #183153;
+       padding: 2rem 0;
+   }
+
+   h3 i {
+       color: #f59f00;
+   }
+
+   h4 {
+       font-size: 1.2rem;
+       font-weight: 500;
+       color: #fff;
+       position: relative;
+   }
+
+   h4 #weatherType {
+       font-size: 2rem;
+       font-weight: 200;
+       color: #fff;
+   }
+
+   h4 #weatherStyle {
+       font-size: .9rem;
+       font-weight: 200;
+       color: #fff;
+       margin-left: .4rem;
+       text-transform: capitalize;
+       margin-top: 10px;
+
+   }
+
+   h4.flex.j-btwn {
+       padding-bottom: 0.5rem;
+   }
+
+   input,
+   button,
+   input:focus,
+   button:focus,
+   input:hover,
+   button:hover {
+       outline: none;
+   }
+
+   /* border */
+   .border-radius {
+       border-radius: 5px;
+   }
+
+   .flex {
+       display: flex;
+   }
+
+   .j-btwn {
+       justify-content: space-between;
+   }
+
+   .align-center {
+       align-items: center;
+   }
+
+   .search-city {
+       max-width: 420px;
+       margin: auto;
+       width: 80%;
+       font-size: 16px;
+       justify-content: center;
+       border: 2px solid #183153;
+   }
+
+   #cityName,
+   #cityBtn {
+       font-size: 16px;
+       font-weight: 500;
+       padding: 1em 1.5em;
+       border: none;
+       background-color: #fff;
+       color: #183153;
+       width: 62%;
+   }
+
+   #cityBtn {
+       border-top-left-radius: 0;
+       border-bottom-left-radius: 0;
+       color: #fff;
+       background-color: #183153;
+       cursor: pointer;
+       width: 42%;
+   }
+
+   h5 {
+       color: #fff;
+       padding: 1rem 0;
+       font-size: 1rem;
+       font-weight: 200;
+   }
+
+   h5 span {
+       padding: .2rem 0;
+   }
+
+   .weather {
+       padding: 2rem;
+       margin: 2rem auto;
+       max-width: 480px;
+       width: 94%;
+       background: #183153;
+       display: none;
+   }
